@@ -5,7 +5,6 @@ description: "Allra besta súkkulaðikakan"
 date: 2026-05-17T21:00:00Z
 image: "/images/posts/allra-besta-sukkuladikakan.png"
 categories: ["Kökur", "Bakstur"]
-authors: ["Kolla Gunn"]
 draft: false
 tags: ["Bakstur"]
 ---
