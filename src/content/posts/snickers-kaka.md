@@ -6,6 +6,7 @@ date: 2026-05-16T21:00:00Z
 image: "/images/posts/snickers-kaka.png"
 categories: ["Kökur", "Bakstur"]
 draft: false
+tags: []
 ---
 
 Mér var sagt að þetta væri ein besta kaka sem ég hef gert – og ég get alveg verið sammála því, hún er dásamlega góð! Þetta er rík og matarmikil lúxuskaka þar sem mjúkir súkkulaðibotnar mæta heimalagaðri karamellu, salthnetum og silkimúku súkkulaðikremi. 

@@ -6,6 +6,7 @@ date: 2026-02-02T21:00:00Z
 image: "/images/posts/kanilkaka.png"
 categories: ["Kökur", "Bakstur"]
 draft: false
+tags: []
 ---
 
 Ég fékk þau viðbrögð að þessi kaka væri á topp 3 yfir bestu kökur sem ég hef bakað – og ég hef bakað margar! Ef þú elskar kanilsnúða þá mæliði klárlega með þessari. Hún er fáránlega einföld, tekur stuttan tíma en er dásamlega mjúk og djúsí.
