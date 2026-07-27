@@ -6,7 +6,7 @@ date: 2026-03-02T21:00:00Z
 image: "/images/posts/risa-tortilla-hakk.png"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
 draft: false
-tags: []
+tags: ["Uppskriftir"]
 ---
 
 Þetta er frábær og einföld útfærsla á risa tortillunni! Í þetta skiptið erum við með bragðgóða hakkfyllingu, maísbaunir og fullt af rifnum osti. Ofsalega fljótlegur og þægilegur kvöldmatur sem klikkar aldrei!

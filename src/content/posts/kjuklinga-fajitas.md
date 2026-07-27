@@ -6,7 +6,7 @@ date: 2026-06-11T21:00:00Z
 image: "/images/posts/kjuklinga-fajitas.png"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: []
+tags: ["Uppskriftir"]
 ---
 
 

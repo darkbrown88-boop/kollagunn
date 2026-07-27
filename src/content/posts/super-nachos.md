@@ -6,7 +6,7 @@ date: 2025-09-28T21:00:00Z
 image: "/images/posts/super-nachos.png"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
 draft: false
-tags: []
+tags: ["Uppskriftir"]
 ---
 
 #### Hráefni
