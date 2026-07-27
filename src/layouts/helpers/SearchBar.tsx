@@ -31,7 +31,7 @@ export default function SearchBar({ searchList }: Props) {
   };
 
   const fuse = new Fuse(searchList, {
-    keys: ["data.title", "data.categories"],
+    keys: ["data.title", "data.categories", "data.tags"],
     includeMatches: true,
     minMatchCharLength: 2,
     threshold: 0.5,
