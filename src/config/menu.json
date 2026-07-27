@@ -1,61 +1,26 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Heim",
       "url": "/"
     },
     {
-      "name": "About",
+      "name": "Uppskriftir",
+      "url": "/categories"
+    },
+    {
+      "name": "Um Mig",
       "url": "/about"
-    },
-    {
-      "name": "Contact",
-      "url": "/contact"
-    },
-    {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Privacy Policy",
-          "url": "/privacy-policy"
-        }
-      ]
     }
   ],
   "footer": [
     {
-      "name": "About",
+      "name": "Um Mig",
       "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Hafa Samband",
       "url": "/contact"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
-    },
-    {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
     }
   ]
 }

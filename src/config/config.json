@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Bookworm Light Astro | Blog Template",
+    "title": "Kolla Gunn",
     "base_url": "https://bookworm-light-astro.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "200",
-    "logo_height": "34",
-    "logo_text": "Bookworm Light"
+    "favicon": "/images/KOLLA GUNN-6.png",
+    "logo": "/images/KOLLA GUNN-6.png",
+    "logo_width": "280",
+    "logo_height": "200",
+    "logo_text": "Kolla Gunn"
   },
 
   "settings": {
@@ -28,12 +28,10 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright © 2025 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "2026 - Kolla Gunn"
   },
 
   "contactinfo": {
-    "address": "355 S Grand Ave <br/> Los Angeles, CA 90071",
-    "email": "info@bookworm.org",
-    "phone": "+800 567 1234"
+    "email": "kollagdottir@gmail.com"
   }
 }
