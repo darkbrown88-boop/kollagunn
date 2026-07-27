@@ -7,7 +7,7 @@ image: "/images/posts/allra-besta-sukkuladikakan.png"
 categories: ["Kökur", "Bakstur"]
 authors: ["Kolla Gunn"]
 draft: false
-tags: ["Uppskriftir"]
+tags: ["Bakstur"]
 ---
 
 Ég ætla leyfa mér að fullyrða að þetta sé besta súkkulaðikakan!

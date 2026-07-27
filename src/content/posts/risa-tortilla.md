@@ -6,7 +6,7 @@ date: 2025-11-28T21:00:00Z
 image: "/images/posts/risa-tortilla-kjuklingur.png"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: ["Uppskriftir"]
+tags: ["Matur"]
 ---
 
 * **12** tortilla kökur (stórar)

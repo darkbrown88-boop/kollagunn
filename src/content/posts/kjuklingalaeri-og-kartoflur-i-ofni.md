@@ -6,7 +6,7 @@ date: 2026-06-7T21:00:00Z
 image: "/images/posts/ofnbakadur-kjuklingur-og-kartoflur.png"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: ["Uppskriftir"]
+tags: ["Matur"]
 ---
 Þessi réttur er dásamlega einfaldur og fullkominn þegar þig vantar fljótlegan og ofsalega þægilegan mat á virkum dögum. Allt eldað í einu og sama fatinu svo uppvaskið er í lágmarki!
 
