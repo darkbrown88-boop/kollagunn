@@ -4,7 +4,7 @@ meta_title: ""
 description: "Kanilkaka"
 date: 2026-02-02T21:00:00Z
 image: "/images/posts/kanilkaka.png"
-categories: ["Kökur"]
+categories: ["Kökur", "Bakstur"]
 draft: false
 tags: ["Bakstur"]
 ---
