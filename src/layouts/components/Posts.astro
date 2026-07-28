@@ -21,7 +21,7 @@ const { className, posts, fluid } = Astro.props;
 >
   {
     posts.map((post, i: number) => (
-      <div class="col-12 sm:col-6 mb-8">
+      <div class="col-12 sm:col-6 lg:col-4 mb-8">
         {post.data.image && (
           <a
             href={`/blog/${post.id}`}
