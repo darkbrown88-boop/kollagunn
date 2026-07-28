@@ -7,7 +7,7 @@ image: "/images/posts/super-nachos.jpg"
 video: "/Videos/super-nachos.mov"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
 draft: true
-tags: ["Matur"]
+tags: []
 ---
 
 #### Hráefni

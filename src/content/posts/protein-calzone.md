@@ -7,7 +7,7 @@ image: "/images/posts/protein-calzone.jpg"
 video: "/Videos/Calzone.mov"
 categories: ["Kvöldmatur", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 #### Próteindeig

@@ -8,7 +8,7 @@ image: "/images/posts/kjuklinga-pasta.jpg"
 video: "/Videos/kjuklinga-pasta.mov"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt", "20 Mínútur"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 ## Hráefni

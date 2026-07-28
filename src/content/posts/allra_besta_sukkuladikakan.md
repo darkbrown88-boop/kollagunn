@@ -14,7 +14,7 @@ image: "/images/posts/allra-besta-sukkuladikakan.jpg"
 video: "/Videos/sukkuladikaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
-tags: ["Bakstur"]
+tags: []
 ---
 
 Ég ætla leyfa mér að fullyrða að þetta sé besta súkkulaðikakan!

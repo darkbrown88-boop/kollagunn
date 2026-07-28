@@ -7,7 +7,7 @@ image: "/images/posts/risa-tortilla-kjuklingur.jpg"
 video: "/Videos/risa-tortilla-kjuklingur.mov"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 * **12** tortilla kökur (stórar)

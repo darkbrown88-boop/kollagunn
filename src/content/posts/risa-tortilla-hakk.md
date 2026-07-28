@@ -7,7 +7,7 @@ image: "/images/posts/risa-tortilla-hakk.jpg"
 video: "/Videos/risa-tortilla-hakk.mov"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 #### Hráefni

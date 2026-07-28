@@ -8,7 +8,7 @@ image: "/images/posts/hot-honey-bbq-kjuklingaborgari.jpg"
 video: "/Videos/hot-honey-bbq-kjuklingaborgari.mov"
 categories: ["Kvöldmatur", "Kjúklingur"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 ## 1. Stökk Kjúklingalæri

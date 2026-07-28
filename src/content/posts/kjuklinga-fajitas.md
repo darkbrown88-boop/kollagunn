@@ -8,7 +8,7 @@ image: "/images/posts/kjuklinga-fajitas.jpg"
 video: "/Videos/ kjuklinga-fajitas-thumbnail .mov"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 #### Kjúklingur & Grænmeti

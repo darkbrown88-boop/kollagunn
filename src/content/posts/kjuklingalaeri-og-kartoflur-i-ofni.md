@@ -7,7 +7,7 @@ image: "/images/posts/ofnbakadur-kjuklingur-og-kartoflur.jpg"
 video: "/Videos/kjuklingalaeri-kartoflur.mov"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 #### Hráefni

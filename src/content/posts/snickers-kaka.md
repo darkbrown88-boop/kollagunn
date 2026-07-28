@@ -10,7 +10,7 @@ image: "/images/posts/snickers-kaka.jpg"
 video: "/Videos/snickerskaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 #### Súkkulaðibotnar

@@ -7,7 +7,7 @@ image: "/images/posts/kanilkaka.jpg"
 video: "/Videos/Kanilkaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
-tags: ["Bakstur"]
+tags: []
 ---
 
 Byrjaðu á því að græja fyllinguna

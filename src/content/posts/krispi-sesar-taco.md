@@ -7,7 +7,7 @@ image: "/images/posts/Krispi-kalkuna-ceasar-taco.jpg"
 video: "/Videos/krispi-kalkuna-ceasar-taco.mov"
 categories: ["Kvöldmatur", "Fljótlegt"]
 draft: false
-tags: ["Matur"]
+tags: []
 ---
 
 
