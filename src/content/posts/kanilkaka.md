@@ -1,16 +1,13 @@
 ---
 title: "Hættulega einföld kanilkaka"
 meta_title: ""
-description: "Kanilkaka"
+description: "Ég fékk þau viðbrögð að þessi kaka væri á topp 3 yfir bestu kökur sem ég hef bakað – og ég hef bakað margar! Ef þú elskar kanilsnúða þá mæliði klárlega með þessari. Hún er fáránlega einföld, tekur stuttan tíma en er dásamlega mjúk og djúsí."
 date: 2026-02-02T21:00:00Z
-image: "/images/posts/kanilkaka.png"
+image: "/images/posts/kanilkaka.jpg"
+video: "/Videos/Kanilkaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
 tags: ["Bakstur"]
----
-
-Ég fékk þau viðbrögð að þessi kaka væri á topp 3 yfir bestu kökur sem ég hef bakað – og ég hef bakað margar! Ef þú elskar kanilsnúða þá mæliði klárlega með þessari. Hún er fáránlega einföld, tekur stuttan tíma en er dásamlega mjúk og djúsí.
-
 ---
 
 Byrjaðu á því að græja fyllinguna

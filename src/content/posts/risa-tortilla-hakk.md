@@ -1,17 +1,13 @@
 ---
 title: "Ofnbökuð risa tortilla með hakki"
 meta_title: ""
-description: "Ofnbökuð risa tortilla með hakki"
+description: "Þetta er frábær og einföld útfærsla á risa tortillunni! Í þetta skiptið erum við með bragðgóða hakkfyllingu, maísbaunir og fullt af rifnum osti. Ofsalega fljótlegur og þægilegur kvöldmatur sem klikkar aldrei!"
 date: 2026-03-02T21:00:00Z
-image: "/images/posts/risa-tortilla-hakk.png"
+image: "/images/posts/risa-tortilla-hakk.jpg"
+video: "/Videos/risa-tortilla-hakk.mov"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
 draft: false
 tags: ["Matur"]
----
-
-Þetta er frábær og einföld útfærsla á risa tortillunni! Í þetta skiptið erum við með bragðgóða hakkfyllingu, maísbaunir og fullt af rifnum osti. Ofsalega fljótlegur og þægilegur kvöldmatur sem klikkar aldrei!
-
-
 ---
 
 #### Hráefni

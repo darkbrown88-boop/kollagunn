@@ -1,18 +1,16 @@
 ---
 title: "Snickers kaka"
 meta_title: ""
-description: "Snickers kaka"
+description: >
+    Mér var sagt að þetta væri ein besta kaka sem ég hef gert – og ég get alveg verið sammála því, hún er dásamlega góð! Þetta er rík og matarmikil lúxuskaka þar sem mjúkir súkkulaðibotnar mæta heimalagaðri karamellu, salthnetum og silkimúku súkkulaðikremi. 
+
+    *Það er upplagt að græja alla hlutana (botna, karamellu og krem) daginn áður og setja hana svo saman þegar þú ætlar að bera hana fram.
 date: 2026-05-16T21:00:00Z
-image: "/images/posts/snickers-kaka.png"
+image: "/images/posts/snickers-kaka.jpg"
+video: "/Videos/snickerskaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
 tags: ["Matur"]
----
-
-Mér var sagt að þetta væri ein besta kaka sem ég hef gert – og ég get alveg verið sammála því, hún er dásamlega góð! Þetta er rík og matarmikil lúxuskaka þar sem mjúkir súkkulaðibotnar mæta heimalagaðri karamellu, salthnetum og silkimúku súkkulaðikremi. 
-
-*Það er upplagt að græja alla hlutana (botna, karamellu og krem) daginn áður og setja hana svo saman þegar þú ætlar að bera hana fram.
-
 ---
 
 #### Súkkulaðibotnar

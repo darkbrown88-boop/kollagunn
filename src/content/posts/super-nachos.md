@@ -3,9 +3,10 @@ title: "Súper Nachos"
 meta_title: ""
 description: "Súper Nachos"
 date: 2025-09-28T21:00:00Z
-image: "/images/posts/super-nachos.png"
+image: "/images/posts/super-nachos.jpg"
+video: "/Videos/super-nachos.mov"
 categories: ["Kvöldmatur", "Hakk", "Fljótlegt"]
-draft: false
+draft: true
 tags: ["Matur"]
 ---
 

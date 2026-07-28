@@ -1,17 +1,14 @@
 ---
 title: "Kjúklinga fajitas"
 meta_title: ""
-description: "Kjúklinga fajitas"
+description: >
+    Hér er einföld og fljótleg uppskrift af kjúklinga fajitas. Allt gert í einu eldföstu móti, borið fram með heimagerðu guacamole og geggjaðri chili-mæjó sósu!
 date: 2026-06-11T21:00:00Z
-image: "/images/posts/kjuklinga-fajitas.png"
+image: "/images/posts/kjuklinga-fajitas.jpg"
+video: "/Videos/ kjuklinga-fajitas-thumbnail .mov"
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt"]
 draft: false
 tags: ["Matur"]
----
-
-
-Hér er einföld og fljótleg uppskrift af kjúklinga fajitas. Allt gert í einu eldföstu móti, borið fram með heimagerðu guacamole og geggjaðri chili-mæjó sósu!
-
 ---
 
 #### Kjúklingur & Grænmeti

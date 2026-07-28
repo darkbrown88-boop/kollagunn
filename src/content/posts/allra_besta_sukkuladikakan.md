@@ -1,9 +1,17 @@
 ---
 title: "Allra besta súkkulaðikakan"
 meta_title: ""
-description: "Allra besta súkkulaðikakan"
+description: >
+  Ég ætla leyfa mér að fullyrða að þetta sé besta súkkulaðikakan!
+  
+  Ég hef notað þessa uppskrift í mörg ár og eyddi smá tíma í að fínpússa hana þar til hún varð nákvæmlega eins og ég vildi hafa hana. Hún er mjúk, rík af súkkulaðibragði og ótrúlega fjölhæf. Og eitt af því mikilvægasta - hún er rosalega einföld.
+  
+  Þú getur bókstaflega sett hana í ofninn á um það bil 5 mínútum – ég er ekki að ýkja!
+  
+  Ég nota hana í alls konar kökur, hvort sem það er einföld skúffukaka með glassúr eða fallega skreytt kaka með smjörkremi. Hún hentar í allt. Ég mæli hiklaust með að þú prófir hana.
 date: 2026-05-17T21:00:00Z
-image: "/images/posts/allra-besta-sukkuladikakan.png"
+image: "/images/posts/allra-besta-sukkuladikakan.jpg"
+video: "/Videos/sukkuladikaka.mov"
 categories: ["Kökur", "Bakstur"]
 draft: false
 tags: ["Bakstur"]

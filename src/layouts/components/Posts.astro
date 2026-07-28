@@ -22,20 +22,51 @@ const { className, posts, fluid } = Astro.props;
   {
     posts.map((post, i: number) => (
       <div class="col-12 sm:col-6 lg:col-4 mb-8">
-        {post.data.image && (
-          <a
-            href={`/blog/${post.id}`}
-            class="rounded-lg block hover:text-primary overflow-hidden group"
-          >
-          <Image
-            class="group-hover:scale-[1.03] transition duration-300 w-full aspect-[4/5] object-cover rounded-lg"
-            src={post.data.image}
-            alt={post.data.title}
-            width={400}
-            height={500}
-          />
-          </a>
-        )}
+        {post.data.video ? (
+  <a
+    href={`/blog/${post.id}`}
+    class="rounded-lg block hover:text-primary overflow-hidden group relative aspect-[9/16] w-full"
+  >
+    {/* Static Cover Image (Visible by default) */}
+    {post.data.image && (
+      <img
+        src={post.data.image}
+        alt={post.data.title}
+        class="absolute inset-0 w-full h-full object-cover rounded-lg transition-opacity duration-300 group-hover:opacity-0"
+      />
+    )}
+
+    {/* Video (Hidden by default, fades in and plays on hover) */}
+    <video
+      muted
+      loop
+      playsinline
+      preload="metadata"
+      class={`w-full h-full object-cover rounded-lg group-hover:scale-[1.03] transition duration-300 cursor-pointer ${
+        post.data.image ? "absolute inset-0 opacity-0 group-hover:opacity-100" : ""
+      }`}
+      onmouseenter="this.play()"
+      onmouseleave="this.pause(); this.currentTime = 0;"
+      ontouchstart="this.play()"
+    >
+      <source src={post.data.video} type="video/mp4" />
+    </video>
+  </a>
+) : post.data.image ? (
+  <a
+    href={`/blog/${post.id}`}
+    class="rounded-lg block hover:text-primary overflow-hidden group aspect-[9/16] w-full"
+  >
+    <Image
+      class="group-hover:scale-[1.03] transition duration-300 w-full h-full object-cover rounded-lg"
+      src={post.data.image}
+      alt={post.data.title}
+      width={400}
+      height={711}
+    />
+  </a>
+) : null}
+
         <ul class="mt-6 mb-4 flex flex-wrap items-center text-text">
           <li class="mr-5">
             {authors

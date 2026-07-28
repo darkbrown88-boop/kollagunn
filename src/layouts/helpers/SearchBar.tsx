@@ -87,20 +87,20 @@ export default function SearchBar({ searchList }: Props) {
         </div>
       )}
 
-      <div className="row">
+      <div className="row gy-5 gx-4 mt-4">
         {searchResults?.map(({ item }) => (
-          <div key={item.slug} className={"col-12 mb-8 sm:col-6"}>
+          <div key={item.slug} className={"col-12 sm:col-6 lg:col-4 mb-8"}>
             {item.data.image && (
               <a
-                href={`/${item.slug}`}
+                href={`/blog/${item.slug}`}
                 className="rounded-lg block hover:text-primary overflow-hidden group"
               >
                 <img
-                  className="group-hover:scale-[1.03] transition duration-300 w-full"
+                  className="group-hover:scale-[1.03] transition duration-300 w-full aspect-[4/5] object-cover rounded-lg"
                   src={item.data.image}
                   alt={item.data.title}
-                  width={445}
-                  height={230}
+                  width={400}
+                  height={500}
                 />
               </a>
             )}
@@ -114,14 +114,14 @@ export default function SearchBar({ searchList }: Props) {
                 <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
                 <>
                   <ul>
-                    {item.data.categories.map((category: string, i: number) => (
+                    {(item.data.categories || []).map((category: string, i: number) => (
                       <li key={i} className="inline-block">
                         <a
                           href={`/categories/${slugify(category)}`}
                           className="mr-2 hover:text-primary font-medium"
                         >
                           {humanize(category)}
-                          {i !== item.data.categories.length - 1 && ","}
+                          {i !== (item.data.categories?.length ?? 0) - 1 && ","}
                         </a>
                       </li>
                     ))}
@@ -132,7 +132,7 @@ export default function SearchBar({ searchList }: Props) {
 
             <h3 className="mb-2">
               <a
-                href={`/${item.slug}`}
+                href={`/blog/${item.slug}`}
                 className="block hover:text-primary transition duration-300"
               >
                 {item.data.title}

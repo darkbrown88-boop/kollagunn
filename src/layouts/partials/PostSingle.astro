@@ -21,84 +21,107 @@ const { title, description, authors, categories, image, date, tags } =
 <section class="section">
   <div class="container">
     <article class="row justify-center">
-      <div class="md:col-10 text-center">
-        <h1 set:html={markdownify(title)} class="h2" />
-        <ul class="mt-4 flex flex-wrap items-center justify-center text-text">
-          <li class="mx-3">
-            {
-              allAuthors
-                .filter((author) =>
-                  authors
-                    .map((author: string) => slugify(author))
-                    .includes(slugify(author.data.title))
-                )
-                .map((author) => (
-                  <a
-                    href={`/authors/${slugify(author.id)}`}
-                    class="flex items-center hover:text-primary font-medium"
-                  >
-                    {author.data.image && (
-                      <Image
-                        src={author.data.image}
-                        alt={author.data.title}
-                        height={50}
-                        width={50}
-                        class="mr-2 h-6 w-6 rounded-full"
-                      />
-                    )}
-                    <span>{author.data.title}</span>
-                  </a>
-                ))
-            }
-          </li>
-          <li class="mx-3 flex items-center flex-wrap font-medium">
-            <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
-            {dateFormat(date)}
-          </li>
-          <li class="mx-3 flex items-center flex-wrap">
-            <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+      
+      <!-- Recipe Header: Two columns on desktop (Left Image + Right Info), stacked on mobile -->
+      <div class="col-12 mb-10">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+          
+          <!-- Left Column: Portrait Image (Aligned Left) -->
+          {
+            image && (
+              <div class="md:col-span-5 flex justify-center md:justify-start">
+                <div class="w-full max-w-[320px] aspect-[9/16] rounded-xl overflow-hidden shadow-md">
+                  <Image
+                    src={image}
+                    height={800}
+                    width={450}
+                    alt={title}
+                    class="w-full h-full object-cover rounded-xl"
+                  />
+                </div>
+              </div>
+            )
+          }
 
-            <ul>
-              {
-                categories.map((category: string, i: number) => (
-                  <li class="inline-block">
-                    <a
-                      href={`/categories/${slugify(category)}`}
-                      class="mr-2 hover:text-primary font-medium"
-                    >
-                      {humanize(category)}
-                      {i !== post.data.categories.length - 1 && ","}
-                    </a>
-                  </li>
-                ))
-              }
+          <!-- Right Column: Title, Metadata, & Description -->
+          <div class={image ? "md:col-span-7 flex flex-col justify-start" : "md:col-span-12"}>
+            <h1 set:html={markdownify(title)} class="h2 mb-4 text-left" />
+
+            <!-- Meta info (Author, Date, Category) -->
+            <ul class="mb-6 flex flex-wrap items-center text-text gap-y-2">
+              <li class="mr-5">
+                {
+                  allAuthors
+                    .filter((author) =>
+                      (authors || [])
+                        .map((authorName: string) => slugify(authorName))
+                        .includes(slugify(author.data.title))
+                    )
+                    .map((author) => (
+                      <a
+                        href={`/authors/${slugify(author.id)}`}
+                        class="flex items-center hover:text-primary font-medium"
+                      >
+                        {author.data.image && (
+                          <Image
+                            src={author.data.image}
+                            alt={author.data.title}
+                            height={50}
+                            width={50}
+                            class="mr-2 h-6 w-6 rounded-full"
+                          />
+                        )}
+                        <span>{author.data.title}</span>
+                      </a>
+                    ))
+                }
+              </li>
+              <li class="mr-5 flex items-center flex-wrap font-medium">
+                <BiCalendarEdit className="mr-1 h-5 w-5 text-gray-600" />
+                {dateFormat(date)}
+              </li>
+              <li class="mr-5 flex items-center flex-wrap">
+                <BiCategoryAlt className="mr-1 h-[18px] w-[18px] text-gray-600" />
+                <ul>
+                  {
+                    (categories || []).map((category: string, i: number) => (
+                      <li class="inline-block">
+                        <a
+                          href={`/categories/${slugify(category)}`}
+                          class="mr-2 hover:text-primary font-medium"
+                        >
+                          {humanize(category)}
+                          {i !== (categories?.length ?? 0) - 1 && ","}
+                        </a>
+                      </li>
+                    ))
+                  }
+                </ul>
+              </li>
             </ul>
-          </li>
-        </ul>
+
+            <!-- Description Block -->
+            {
+              description && (
+                <div class="text-text-light text-lg leading-relaxed whitespace-pre-line">
+                  {description}
+                </div>
+              )
+            }
+          </div>
+        </div>
       </div>
 
-      <div class="col-12 mt-8 mb-2">
-        {
-          image && (
-            <Image
-              src={image}
-              height={800}
-              width={600}
-              alt={title}
-              class="rounded-lg mx-auto max-w-md w-full aspect-[4/5] object-cover"
-            />
-          )
-        }
-      </div>
-
-      <div class="md:col-10">
+      <!-- Main Recipe Content (Ingredients, Instructions, etc.) -->
+      <div class="col-12 md:col-10">
+        <hr class="border-gray-200 mb-10" />
         <div class="content mb-16 text-left">
           <Content />
         </div>
         <div class="flex flex-wrap items-center justify-between">
-           <ul class="mr-4 mb-4 space-x-3">
+          <ul class="mr-4 mb-4 space-x-3">
             {
-              tags.map((tag: string) => (
+              (tags || []).map((tag: string) => (
                 <li class="inline-block">
                   <a
                     href={`/tags/${slugify(tag)}`}

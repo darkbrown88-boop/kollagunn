@@ -1,9 +1,10 @@
 ---
 title: "Prótein Calzone"
 meta_title: ""
-description: "Prótein Calzone"
+description: "Einfalt Calzone úr próteinríku deigi sem ég geri úr grískri jógúrt og hveti. Tilvalið sem snöggur kvöldmatur eða ef þig langar í eitthvað gott í hádegismat"
 date: 2026-03-10T21:00:00Z
-image: "/images/posts/protein-calzone.png"
+image: "/images/posts/protein-calzone.jpg"
+video: "/Videos/Calzone.mov"
 categories: ["Kvöldmatur", "Fljótlegt"]
 draft: false
 tags: ["Matur"]
