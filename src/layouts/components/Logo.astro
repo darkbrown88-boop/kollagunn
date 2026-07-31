@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import config from "@/config/config.json";
+
 const { src } = Astro.props;
 const {
   logo,
@@ -25,9 +26,10 @@ const {
         height={logo_height.replace("px", "") * 2}
         src={src ? src : logo}
         alt={title}
+        class="h-auto w-auto max-w-full object-contain"
         style={{
-          height: logo_height.replace("px", "") + "px",
-          width: logo_width.replace("px", "") + "px",
+          maxHeight: logo_height.replace("px", "") + "px",
+          maxWidth: logo_width.replace("px", "") + "px",
         }}
       />
     ) : logo_text ? (
