@@ -2,7 +2,7 @@
 title: "Gamla Góða Hjónabandssælan"
 meta_title: ""
 description: >
-    Það jafnast fátt við alvöru, heimalagada hjónabandssælu. Þessi uppskrift er ofsalega einföld, dásamlega stökk og ljúffeng. Sérstaklega þegar hún er bökuð með góðri heimagerðri rabarbarasultu!
+    Það jafnast fátt við alvöru, heimalagada hjónabandssælu. Þessi uppskrift er einföld og ljúffeng. Sérstaklega þegar hún er bökuð með góðri heimagerðri rabarbarasultu!
 
     Ég mæli með að strá smá salti yfir deigið áður en það fer í ofninn – það gerir mikið fyrir bragðið!
 date: 2026-07-11T21:00:00Z

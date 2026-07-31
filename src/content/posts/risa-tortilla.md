@@ -1,7 +1,7 @@
 ---
 title: "Ofnbökuð risa tortilla með kjúklingi"
 meta_title: ""
-description: "Ofnbökuð risa tortilla með kjúklingi sem einfalt er að skella saman og bjóða uppá á virk kvöldi þegar tíminn er af skornum skamti!"
+description: "Ofnbökuð risa tortilla með kjúklingi sem einfalt er að skella saman og bjóða uppá á virku kvöldi þegar tíminn er af skornum skamti!"
 date: 2025-11-28T21:00:00Z
 image: "/images/posts/risa-tortilla-kjuklingur.jpg"
 video: "/Videos/risa-tortilla-kjuklingur.mov"

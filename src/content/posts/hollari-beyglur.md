@@ -2,9 +2,9 @@
 title: "Hollari Beyglur úr Grískri Jógúrt"
 meta_title: ""
 description: >
-  ær eru ótrúlega auðveldar, fljótlegar og mun hollari en venjulegar beyglur! Hér er engin gerhefing og engin suða – bara blandað, mótað og bakað. 
+   Þær eru ótrúlega auðveldar, fljótlegar og mun hollari en venjulegar beyglur! Hér er engin gerhefing og engin suða – bara blandað, mótað og bakað. 
 
-    Hægt er að leika sér endalaust með toppa, en í þessari uppskrift eru gerðar tvær dásamlegar útgáfur: Jalapeño & Cheddar og Everything Bagel krydd
+   Í þessari uppskrift eru gerðar tvær mismunandi útgáfur: Jalapeño & Cheddar og Everything Bagel
 date: 2026-06-16T21:00:00Z
 image: "/images/posts/hollar-beyglur.jpg"
 video: "/Videos/hollar-beyglur.mov"

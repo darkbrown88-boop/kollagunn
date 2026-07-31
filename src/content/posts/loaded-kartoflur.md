@@ -1,7 +1,7 @@
 ---
 title: "Loaded Kartöflur með Hakki & Fersku Salati"
 meta_title: ""
-description: "Þessi réttur er tilvalinn þegar þig langar í bragðgóðan, seðjandi og skemmtilegan kvöldmat! Kartöflurnar eru bakaðar í ofni með góðu kryddi, stappaðar léttilega með smjöri og toppaðar með dásamlegri hakkfyllingu, osti og fersku heimalöguðu salsa."
+description: "Þessi réttur er tilvalinn þegar þig langar í bragðgóðan, seðjandi og skemmtilegan kvöldmat! Kartöflurnar eru bakaðar í ofni með góðu kryddi, stappaðar léttilega með smjöri og toppaðar með hakkfyllingu, osti og fersku heimalöguðu salsa."
 date: 2026-07-05T21:00:00Z
 image: "/images/posts/loaded-kartoflur.jpg"
 video: "/Videos/loaded-kartoflur.mov"

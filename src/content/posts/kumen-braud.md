@@ -2,7 +2,7 @@
 title: "Kúmenbrauð"
 meta_title: ""
 description: >
-    Ert þig langað í dásamlegt, stökkt pottabrauð sem minnir á súrdeigsbrauð en hefur ekki tíma eða þolinmæði í að halda súr lifandi? Þessi uppskrift er algjör bjargvættur! Hún gefur dásamlegt kúmenbrauð með stökkri krustu og mjúkri miðju – án öllu veseni.
+    Langar þig í dásamlegt, stökkt brauð sem minnir á súrdeigsbrauð en hefur ekki tíma eða þolinmæði í að halda súr lifandi? Þessi uppskrift er algjör snilld fyrir okkur sem nennum ekki veseninu í kringum súr en viljum sammt geta bakað brauð með stífri skorpu og mjúkri miðju!
 date: 2026-06-24T21:00:00Z
 image: "/images/posts/kumen-braud.jpg"
 video: "/Videos/kumen-braud.mov"

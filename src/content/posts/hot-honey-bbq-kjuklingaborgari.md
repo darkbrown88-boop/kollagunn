@@ -2,7 +2,7 @@
 title: "Hot Honey BBQ Kjúklingaborgari"
 meta_title: ""
 description: >
-    Þessi borgari er í miklu uppáhaldi hjá mér og klikkar einfaldlega aldrei. Kjúklingalærin fá dásamlega stökkan hjúp úr Doritos sem er ofnbakaður, og svo eru þau dýfð í sæta og sterka Hot Honey BBQ sósu!
+    Þessi borgari er í miklu uppáhaldi hjá mér og klikkar einfaldlega aldrei. Kjúklingalæri, hjúpuð í Doritos og dýft í sæta Hot Honey BBQ sósu!
 date: 2026-07-22T21:00:00Z
 image: "/images/posts/hot-honey-bbq-kjuklingaborgari.jpg"
 video: "/Videos/hot-honey-bbq-kjuklingaborgari.mov"

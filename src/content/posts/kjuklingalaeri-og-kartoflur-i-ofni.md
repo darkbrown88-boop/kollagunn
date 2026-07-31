@@ -1,7 +1,7 @@
 ---
 title: "Ofnbökuð kjúklingalæri og kartöflur"
 meta_title: ""
-description: "Þessi réttur er dásamlega einfaldur og fullkominn þegar þig vantar fljótlegan og ofsalega þægilegan mat á virkum dögum. Allt eldað í einu og sama fatinu svo uppvaskið er í lágmarki!"
+description: "Þessi réttur er ofboðslega einfaldur og fullkominn þegar þig vantar fljótlegan og þægilegan mat á virkum dögum. Allt eldað í einu og sama fatinu svo uppvaskið er í lágmarki!"
 date: 2026-06-7T21:00:00Z
 image: "/images/posts/ofnbakadur-kjuklingur-og-kartoflur.jpg"
 video: "/Videos/kjuklingalaeri-kartoflur.mov"

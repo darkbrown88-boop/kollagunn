@@ -2,7 +2,7 @@
 title: "Rjómalagað Kjúklingapasta – Kvöldmatur á 20 Mínútum!"
 meta_title: ""
 description: >
-    Þegar það er mikið að gera á virkum dögum er dásamlegt að eiga í handraðanum uppskrift sem tekur einungis 20 mínútur að galdra fram! Þetta kjúklingapasta er ofsalega einfalt, dásamlega rjómalagað og með leynihráefni sem gerir sósuna algjörlega ómótstæðilega.
+    Þegar það er mikið að gera á virkum dögum er dásamlegt að eiga uppskrift sem tekur einungis 20 mínútur að græja! Þetta kjúklingapasta er ofsalega einfalt og gott og alveg tilvalið að græja þegar við höfum ekki tíma (eða nennu) í að eyða of miklum tíma í eldhúsinu.
 date: 2026-07-17T21:00:00Z
 image: "/images/posts/kjuklinga-pasta.jpg"
 video: "/Videos/kjuklinga-pasta.mov"

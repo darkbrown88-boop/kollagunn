@@ -2,7 +2,7 @@
 title: "Epla-Karamellu Skyrkaka"
 meta_title: ""
 description: >
-    Þessi skyrkaka er dásamlega fersk, kremuð og með volgri eplakaramellu sem gerir hana algjörlega ómótstæðilega. Hún er borin fram í litlum glösum sem gerir hana einstaklega fallega á veisluborðið og mjög þægilega til að bera fram fyrir marga gesti!
+    Þessi skyrkaka er dásamlega fersk með volgri eplakaramellu sem gerir hana algjörlega ómótstæðilega. Hún er borin fram í litlum glösum sem gerir hana fallega á veisluborðið og mjög þægilega til að bera fram fyrir marga gesti!
 date: 2026-07-04T21:00:00Z
 image: "/images/posts/epla-karamellu-skyrkaka.jpg"
 video: "/Videos/epla-karamellu-skyrkaka.mov"

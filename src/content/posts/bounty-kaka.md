@@ -2,7 +2,7 @@
 title: "Bounty Súkkulaðikaka"
 meta_title: ""
 description: >
-    Ef þú elskar Bounty súkkulaði, þá á þessi kaka eftir að slá í gegn! Hún samanstendur af dásamlegri kókosfyllingu í botninum, djúsí og mjúkri súkkulaðiköku ofan á, og silkimjúku súkkulaði ganache kremi yfir öllu saman. 
+    Ef þú elskar Bounty súkkulaði, þá á þessi kaka eftir að slá í gegn! Hún samanstendur af kókosfyllingu í botninum, djúsí og mjúkri súkkulaðiköku ofan á, og silkimjúku súkkulaði ganache kremi yfir öllu saman. 
 
     10 af 10 – algjör lúxus!    
 date: 2026-06-21T21:00:00Z

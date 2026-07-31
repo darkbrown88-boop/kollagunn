@@ -4,7 +4,7 @@ meta_title: ""
 description: >
     Mér finnst þetta vera einir bestu kanilsnúðar í heimi! Þeir eru ótrúlega mjúkir, djúsí og með geggjaðri kanilfyllingu.
 
-    ATH! Ekki stökkva yfir skrefið þar sem rjómanum er hellt yfir snúðana rétt áður en þeir fara í ofninn – hann karamelliserast í botninum og gerir þá extra djúsí!  
+    ATH! Ekki sleppa skrefinu þar sem rjómanum er hellt yfir snúðana rétt áður en þeir fara í ofninn – hann karamelliserast í botninum og gerir þá extra djúsí!  
 date: 2026-06-17T21:00:00Z
 image: "/images/posts/kanilsnudar.jpg"
 video: "/Videos/kanilsnudar.mov"

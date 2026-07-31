@@ -2,9 +2,9 @@
 title: "Djúsí og Dúnmjúkir Pizzasnúðar"
 meta_title: ""
 description: >
-    Það jafnast fátt við nýbakaða, heita pizzasnúða! Þessi uppskrift gefur dásamlega mjúka og teygjanlega snúða sem klikka aldrei. Perfekt í nestisboxið, í afmælið eða einfaldlega sem lúxus millimál.
+    Það jafnast fátt við nýbakaða, heita pizzasnúða! Þessi uppskrift gefur einstaklega mjúka og teygjanlega snúða sem klikka aldrei. Perfekt í nestisboxið, í afmælið eða einfaldlega sem lúxus millimál.
 
-    Ég mæli með að nota brauðhveiti í stað hefðbundins hveitis til að gera deigið extra mjúkt!
+    *Ég mæli með að nota brauðhveiti í stað hefðbundins hveitis til að gera deigið extra mjúkt!
 date: 2026-07-11T21:00:00Z
 image: "/images/posts/pizzasnudar.jpg"
 video: "/Videos/pizzasnudar.mov"
