@@ -5,9 +5,9 @@ description: >
   ær eru ótrúlega auðveldar, fljótlegar og mun hollari en venjulegar beyglur! Hér er engin gerhefing og engin suða – bara blandað, mótað og bakað. 
 
     Hægt er að leika sér endalaust með toppa, en í þessari uppskrift eru gerðar tvær dásamlegar útgáfur: Jalapeño & Cheddar og Everything Bagel krydd
-date: 2026-05-17T21:00:00Z
-image: "/images/posts/hollari-beyglur.jpg"
-video: "/Videos/hollari-beyglur.mov"
+date: 2026-06-16T21:00:00Z
+image: "/images/posts/hollar-beyglur.jpg"
+video: "/Videos/hollar-beyglur.mov"
 categories: ["Bakstur", "Brauð"]
 draft: false
 tags: []
