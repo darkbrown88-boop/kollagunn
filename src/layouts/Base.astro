@@ -13,6 +13,10 @@ import {
 import { AstroFont } from "astro-font";
 import { ClientRouter } from "astro:transitions";
 
+// Vercel Mælingar
+import Analytics from "@vercel/analytics/astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
+
 // font families
 const pf = theme.fonts.font_family.primary;
 
@@ -31,15 +35,49 @@ export interface Props {
   image?: string;
   noindex?: boolean;
   canonical?: string;
+  categories?: string[];
 }
 
 // distructure frontmatters
-const { title, meta_title, description, image, noindex, canonical } =
-  Astro.props;
+const { 
+  title, 
+  meta_title, 
+  description, 
+  image, 
+  noindex, 
+  canonical,
+  categories 
+} = Astro.props;
+
+// Reikna út rétta texta og slóðir
+const currentTitle = plainify(
+  meta_title ? meta_title : title ? title : config.site.title
+);
+const currentDescription = plainify(
+  description ? description : config.metadata.meta_description
+);
+const imageUrl = image ? image : config.metadata.meta_image;
+const fullImageUrl = imageUrl.startsWith("http")
+  ? imageUrl
+  : `${config.site.base_url}${imageUrl.startsWith("/") ? "" : "/"}${imageUrl}`;
+const pageUrl = canonical ? canonical : `${config.site.base_url}${Astro.url.pathname}`;
+
+// Búa til einfalt Uppskrifta-Schema fyrir Google ef þetta er uppskrift (með mynd og description)
+const isRecipe = title && image;
+const recipeSchema = isRecipe
+  ? {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": currentTitle,
+      "image": [fullImageUrl],
+      "description": currentDescription,
+      "recipeCategory": categories && categories.length > 0 ? categories[0] : undefined
+    }
+  : null;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="is">
   <head>
     <!-- google tag manager -->
     {
@@ -88,82 +126,44 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
 
     <!-- title -->
-    <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
-    </title>
+    <title>{currentTitle}</title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    <link rel="canonical" href={pageUrl} item-prop="url" />
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
     <!-- meta-description -->
-    <meta
-      name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
+    <meta name="description" content={currentDescription} />
 
     <ClientRouter />
 
     <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
 
-    <!-- og-title -->
-    <meta
-      property="og:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
-    />
-
-    <!-- og-description -->
-    <meta
-      property="og:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
-    <meta property="og:type" content="website" />
-    <meta
-      property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
-    />
+    <!-- og-title (Open Graph fyrir Facebook, Pinterest, o.fl.) -->
+    <meta property="og:title" content={currentTitle} />
+    <meta property="og:description" content={currentDescription} />
+    <meta property="og:type" content={isRecipe ? "article" : "website"} />
+    <meta property="og:url" content={pageUrl} />
+    <meta property="og:image" content={fullImageUrl} />
 
     <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
-    />
-
-    <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
-    />
-
-    <!-- og-image -->
-    <meta
-      property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
-
-    <!-- twitter-image -->
-    <meta
-      name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
-    />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={currentTitle} />
+    <meta name="twitter:description" content={currentDescription} />
+    <meta name="twitter:image" content={fullImageUrl} />
+
+    <!-- Recipe Schema fyrir Google leitarniðurstöður -->
+    {
+      recipeSchema && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(recipeSchema)}
+        />
+      )
+    }
   </head>
   <body>
     {/* google tag manager noscript */}
@@ -179,5 +179,9 @@ const { title, meta_title, description, image, noindex, canonical } =
       <slot />
     </main>
     <Footer />
+
+    <!-- Vercel Analytics & Speed Insights mælingar -->
+    <Analytics />
+    <SpeedInsights />
   </body>
 </html>
