@@ -13,6 +13,13 @@ const currentPosts = sortedPosts.slice(0, config.settings.pagination);
 ---
 
 <Base>
+  <section class="py-8 text-center">
+  <h1 class="text-3xl md:text-4xl font-bold text-dark mb-3">
+    Einfaldar & ljúffengar uppskriftir!
+  </h1>
+  <p class="text-text text-lg leading-relaxed">
+    Kíktu á nýjustu uppskriftirnar hér fyrir neðan!
+  </p>
   <section class="section">
     <div class="container">
       <Posts posts={currentPosts} className="mb-16" />
