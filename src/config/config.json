@@ -20,10 +20,9 @@
     "meta_image": "/images/og-image.png",
     "meta_description": "Bookworm Light Astro Blog Template"
   },
-
   "google_tag_manager": {
-    "enable": false,
-    "gtm_id": "GTM-XXXXXX"
+    "enable": true,
+    "gtm_id": "G-L2HBNCFMCY"
   },
 
   "params": {
