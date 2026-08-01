@@ -32,25 +32,9 @@ const { className, posts, fluid } = Astro.props;
       <img
         src={post.data.image}
         alt={post.data.title}
-        class="absolute inset-0 w-full h-full object-cover rounded-lg transition-opacity duration-300 group-hover:opacity-0"
+        class="absolute inset-0 w-full h-full object-cover rounded-lg transition-opacity duration-300"
       />
     )}
-
-    {/* Video (Hidden by default, fades in and plays on hover) */}
-    <video
-      muted
-      loop
-      playsinline
-      preload="metadata"
-      class={`w-full h-full object-cover rounded-lg group-hover:scale-[1.03] transition duration-300 cursor-pointer ${
-        post.data.image ? "absolute inset-0 opacity-0 group-hover:opacity-100" : ""
-      }`}
-      onmouseenter="this.play()"
-      onmouseleave="this.pause(); this.currentTime = 0;"
-      ontouchstart="this.play()"
-    >
-      <source src={post.data.video} type="video/mp4" />
-    </video>
   </a>
 ) : post.data.image ? (
   <a
