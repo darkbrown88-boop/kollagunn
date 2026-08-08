@@ -4,7 +4,7 @@ meta_title: ""
 description: >
     Hér er næsta uppskriftin í 20 mínútna seríunni minni! Þessi réttur er ofsalega einfaldur, tekur fá hráefni og það besta við hann - Allt er eldað í sömu pönnunni!
 date: 2026-08-05T21:00:00Z
-image: "/images/posts/kjulli-pasta-20-min.jpg"
+image: "/images/posts/pasta-kjulli-20-min.jpg"
 video: ""
 categories: ["Kvöldmatur", "Kjúklingur", "Fljótlegt", "20 Mínútur"]
 draft: false
