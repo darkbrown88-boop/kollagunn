@@ -36,6 +36,7 @@ tags: []
 - 3/4 bollar kakó
 - 2tsk matarsódi
 - 1tsk salt 
+- 2 egg
 - 1 bolli súrmjólk
 - 1 bolli olía 
 - 1 bolli heitt vatn úr krananum 
