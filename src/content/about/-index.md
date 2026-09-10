@@ -1,7 +1,7 @@
 ---
 title: "Kolla Gunn"
 meta_title: "About"
-image: "/images/authors/kollagunn.jpeg"
+image: "/images/authors/kollagunn.PNG"
 draft: false
 instagram: ""
 tiktok: ""
