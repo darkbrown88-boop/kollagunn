@@ -20,7 +20,7 @@ tags: []
 * Rotisserie chicken krydd (t.d. frá McCormick)
 
 
-1. Skerið kartöflurnar í litla bita og setjið þær í eldfast mót. Hellið um það bil 2 matskeiðum af olíu yfir og kryggið vel með hvítlaukskryddi, papriku, pipar, salti og smá chili flögum. Blandið þessu vel saman.
+1. Skerið kartöflurnar í litla bita og setjið þær í eldfast mót. Hellið um það bil 2 matskeiðum af olíu yfir og kryddið vel með hvítlaukskryddi, papriku, pipar, salti og smá chili flögum. Blandið þessu vel saman.
 2. Skerið brokkolíið í litla bita, dreifið yfir kartöflurnar og blandið saman.
 3. Setjið kjúklingalærin í sér skál, hellið smá olíu yfir og kryddið vel með Rotisserie chicken kryddi (eða öðru góðu kjúklingakryddi). Blandið vel.
 4. Raðið krydduðu kjúklingalærunum ofan á kartöflu- og brokkolíblönduna.
